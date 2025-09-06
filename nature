@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature & Life Blog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f9f4;
+      color: #333;
+    }
+    header {
+      background: #2e8b57;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #246b46;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #2e8b57;
+      margin-bottom: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .contact-info {
+      margin-top: 15px;
+      line-height: 1.8;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #2e8b57;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #246b46;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌍 Nature & Life Blog</h1>
+    <p>Explore Nature, Animals, and Documentaries</p>
+  </header>
+
+  <nav>
+    <a href="#nature">Nature</a>
+    <a href="#animals">Animals</a>
+    <a href="#documentaries">Documentaries</a>
+    <a href="#about">About Me</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="nature">
+    <h2>About Nature</h2>
+    <div class="card">
+      <p>Nature is the foundation of life. From mountains to oceans, forests to deserts, our planet is filled with breathtaking beauty. Protecting nature is protecting our future.</p>
+    </div>
+  </section>
+
+  <section id="animals">
+    <h2>About Animals</h2>
+    <div class="card">
+      <p>Animals are essential to our ecosystem. From the smallest insects to the largest mammals, each creature has a role in maintaining the balance of life.</p>
+    </div>
+  </section>
+
+  <section id="documentaries">
+    <h2>Documentaries</h2>
+    <div class="card">
+      <p>Documentaries bring us closer to understanding the world. They show us the hidden wonders of nature, the struggles of wildlife, and the importance of conservation.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>Hello! My name is [Your Name]. I created this blog to share knowledge about nature, animals, and documentaries. I believe in spreading awareness about the beauty of our world and the need to protect it.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+      <p>If you would like to get in touch, fill out the form below or reach me directly:</p>
+      <div class="contact-info">
+        <p><strong>Name:</strong> [Your Name]</p>
+        <p><strong>Email:</strong> [Your Email]</p>
+        <p><strong>Phone:</strong> [Your Phone Number]</p>
+      </div>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nature & Life Blog | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
